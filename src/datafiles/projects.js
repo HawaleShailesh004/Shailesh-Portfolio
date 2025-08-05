@@ -7,7 +7,7 @@ export const projects = [
     tech: ["MERN Stack", "Groq API", "TailwindCSS"],
     github: "https://github.com/HawaleShailesh004/Exam-Mitra-MERN",
     live: "https://exam-mitra.vercel.app",
-    image: "../src/assets/project_images/exam_mitra_banner.webp",
+    image: "/project_images/exam_mitra_banner.webp",
   },
   {
     title: "StylePredict",
@@ -16,7 +16,7 @@ export const projects = [
     tech: ["Python", "Flask", "XGBoost", "HTML", "CSS"],
     github: "https://github.com/HawaleShailesh004/Style-Predict",
     live: "https://fashionforecast-h008.onrender.com/",
-    image: "../src/assets/project_images/stylepredict_banner.webp",
+    image: "/project_images/stylepredict_banner.webp",
   },
   {
     title: "findItLocal",
@@ -25,15 +25,15 @@ export const projects = [
     tech: ["MongoDB", "Express", "React", "Node"],
     github: "https://github.com/HawaleShailesh004/findItLocal",
     // live: "https://finditlocal.vercel.app",
-    image: "../src/assets/project_images/finditlocal_banner.webp",
+    image: "/project_images/finditlocal_banner.webp",
   },
   {
     title: "Portfolio Website",
     description:
       "A modern portfolio built with React, Tailwind CSS, Framer Motion. Fully responsive and animated.",
     tech: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.vercel.app",
-    image: "../src/assets/project_images/portfolio_banner.webp",
+    github: "https://github.com/HawaleShailesh004/Shailesh-Portfolio",
+    live: "https://shailesh-hawale-portfolio.vercel.app",
+    image: "/project_images/portfolio_banner.webp",
   },
 ];
