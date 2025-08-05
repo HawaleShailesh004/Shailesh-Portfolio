@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Define custom theme tokens with the new `@theme` syntax */
+@theme {
+    --accent: '#00BFA6';
+    /* or replace with '#4c8bf5' */
+    --lightBg: '#f8f9fa';
+    --darkBg: '#0d1117';
+    --lightText: '#212529';
+    --darkText: '#e6edf3';
+}
+
+/* Optional utility overrides or animations can go here */
+@layer utilities {
+    .glow {
+        text-shadow: 0 0 4px var(--color-neon-green), 0 0 8px var(--color-neon-green);
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .underline-animate::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--color-neon-green);
+        transition: width 0.3s ease-in-out;
+    }
+
+    .underline-animate:hover::after {
+        width: 100%;
+    }
+
+    @keyframes stack-loop {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-25%);
+        }
+    }
+
+    .animate-stack-loop>* {
+        animation: stack-loop 6s linear infinite;
+    }
+}
+
+
+@custom-variant dark (&:where(.dark, .dark *));
