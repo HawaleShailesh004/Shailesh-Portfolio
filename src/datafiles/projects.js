@@ -3,8 +3,15 @@ export const projects = [
   {
     title: "ExamMitra",
     description:
-      "AI-powered MERN app that extracts questions from PDFs/university sites, generates AI answers, and exports as PDF.",
-    tech: ["MERN Stack", "Groq API", "TailwindCSS"],
+      "A MERN stack application built for Mumbai University engineering students to streamline exam preparation. It uses AI to generate answers from scraped questions, tracks revision, and exports PDFs for offline study, all in one seamless app.",
+    tech: [
+      "MERN Stack",
+      "Groq API",
+      "Puppeter",
+      "Puter.js",
+      "Multer",
+      "Vercel",
+    ],
     github: "https://github.com/HawaleShailesh004/Exam-Mitra-MERN",
     live: "https://exam-mitra.vercel.app",
     image: "/project_images/exam_mitra_banner.webp",
@@ -13,7 +20,7 @@ export const projects = [
     title: "StylePredict",
     description:
       "ML app using XGBoost to predict clothing store revenue with customer filters. Helps businesses make data-driven decisions.",
-    tech: ["Python", "Flask", "XGBoost", "HTML", "CSS"],
+    tech: ["Machine Learning", "Python", "Flask", "HTML", "CSS", "JS"],
     github: "https://github.com/HawaleShailesh004/Style-Predict",
     live: "https://fashionforecast-h008.onrender.com/",
     image: "/project_images/stylepredict_banner.webp",
@@ -30,8 +37,8 @@ export const projects = [
   {
     title: "Portfolio Website",
     description:
-      "A modern portfolio built with React, Tailwind CSS, Framer Motion. Fully responsive and animated.",
-    tech: ["React", "Tailwind", "Framer Motion"],
+      "A modern portfolio built with React, Tailwind CSS, Framer Motion. Fully responsive and animated, that describes about ME",
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/HawaleShailesh004/Shailesh-Portfolio",
     live: "https://shailesh-hawale-portfolio.vercel.app",
     image: "/project_images/portfolio_banner.webp",

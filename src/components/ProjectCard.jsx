@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index = 0 }) => {
         <h3 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
           {project.title}
         </h3>
-        <p className="text-gray-700 dark:text-gray-300 text-sm">
+        <p className="text-gray-700 dark:text-gray-300 text-sm pr-3">
           {project.description}
         </p>
 

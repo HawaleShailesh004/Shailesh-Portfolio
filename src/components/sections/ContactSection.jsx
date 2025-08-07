@@ -81,6 +81,7 @@ const ContactSection = () => {
       <motion.p className="text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto text-center" variants={fadeInUp} transition={{ duration: 0.6, delay: 0.2 }}>
         Feel free to reach out! Whether it's a project, collaboration, or just a hello.
       </motion.p>
+      
 
       <motion.form onSubmit={handleSubmit} className="flex flex-col gap-4 text-left w-full max-w-2xl mx-auto" variants={fadeInUp} transition={{ duration: 0.6, delay: 0.3 }}>
         <input

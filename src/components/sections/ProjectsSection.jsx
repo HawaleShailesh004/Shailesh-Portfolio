@@ -10,7 +10,7 @@ const ProjectsSection = () => {
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-center">
         Projects I've Built
       </h2>
-      <div className="h-1 w-24 bg-amber-200 rounded-full mb-12" />
+      <div className="h-0.5 w-24 bg-amber-200 rounded-full mb-12" />
 
       <div className="flex flex-col items-center gap-12 w-full">
         {projects.map((project, index) => (

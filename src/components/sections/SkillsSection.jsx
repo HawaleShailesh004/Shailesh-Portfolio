@@ -21,22 +21,92 @@ import {
 } from "react-icons/si";
 
 const skills = [
-  { name: "HTML5", icon: <FaHtml5 />, color: "text-orange-500", category: "Frontend" },
-  { name: "CSS3", icon: <FaCss3Alt />, color: "text-blue-500", category: "Frontend" },
-  { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-500", category: "Frontend" },
-  { name: "React", icon: <FaReact />, color: "text-cyan-500", category: "Frontend" },
-  { name: "Tailwind", icon: <SiTailwindcss />, color: "text-cyan-400", category: "Frontend" },
+  {
+    name: "HTML5",
+    icon: <FaHtml5 />,
+    color: "text-orange-500",
+    category: "Frontend",
+  },
+  {
+    name: "CSS3",
+    icon: <FaCss3Alt />,
+    color: "text-blue-500",
+    category: "Frontend",
+  },
+  {
+    name: "JavaScript",
+    icon: <SiJavascript />,
+    color: "text-yellow-500",
+    category: "Frontend",
+  },
+  {
+    name: "React",
+    icon: <FaReact />,
+    color: "text-cyan-500",
+    category: "Frontend",
+  },
+  {
+    name: "Tailwind",
+    icon: <SiTailwindcss />,
+    color: "text-cyan-400",
+    category: "Frontend",
+  },
 
-  { name: "Node.js", icon: <FaNodeJs />, color: "text-green-600", category: "Backend" },
-  { name: "Express", icon: <SiExpress />, color: "text-gray-600 dark:text-gray-300", category: "Backend" },
-  { name: "Python", icon: <FaPython />, color: "text-yellow-500", category: "Backend" },
-  { name: "Flask", icon: <SiFlask />, color: "text-gray-800 dark:text-white", category: "Backend" },
-  { name: "SQL", icon: <SiPostgresql />, color: "text-indigo-500", category: "Backend" },
-  { name: "MongoDB", icon: <SiMongodb />, color: "text-green-500", category: "Backend" },
+  {
+    name: "Node.js",
+    icon: <FaNodeJs />,
+    color: "text-green-600",
+    category: "Backend",
+  },
+  {
+    name: "Express",
+    icon: <SiExpress />,
+    color: "text-gray-600 dark:text-gray-300",
+    category: "Backend",
+  },
+  {
+    name: "Python",
+    icon: <FaPython />,
+    color: "text-yellow-500",
+    category: "Backend",
+  },
+  {
+    name: "Flask",
+    icon: <SiFlask />,
+    color: "text-gray-800 dark:text-white",
+    category: "Backend",
+  },
+  {
+    name: "SQL",
+    icon: <SiPostgresql />,
+    color: "text-indigo-500",
+    category: "Backend",
+  },
+  {
+    name: "MongoDB",
+    icon: <SiMongodb />,
+    color: "text-green-500",
+    category: "Backend",
+  },
 
-  { name: "Git", icon: <FaGitAlt />, color: "text-orange-500", category: "Tools" },
-  { name: "GitHub", icon: <FaGithub />, color: "text-gray-800 dark:text-white", category: "Tools" },
-  { name: "Postman", icon: <SiPostman />, color: "text-orange-500", category: "Tools" },
+  {
+    name: "Git",
+    icon: <FaGitAlt />,
+    color: "text-orange-500",
+    category: "Tools",
+  },
+  {
+    name: "GitHub",
+    icon: <FaGithub />,
+    color: "text-gray-800 dark:text-white",
+    category: "Tools",
+  },
+  {
+    name: "Postman",
+    icon: <SiPostman />,
+    color: "text-orange-500",
+    category: "Tools",
+  },
 ];
 
 const categories = ["Frontend", "Backend", "Tools"];
@@ -48,10 +118,10 @@ const SkillsSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-2 text-center">
           Skills & Technologies
         </h2>
-        <p className="text-slate-600 dark:text-slate-300 mb-6 text-center">
+        <p className="text-slate-600 dark:text-slate-300 mb-2 text-center">
           Open to Frontend, Backend, and Full Stack roles
         </p>
-        <div className="w-24 border-b-2 border-amber-200 mb-10 rounded-2xl" />
+        <div className="h-0.5 w-24 bg-amber-200 rounded-full mb-12" />
 
         <div className="w-full flex flex-col divide-y divide-slate-200 dark:divide-slate-700">
           {categories.map((category) => (
@@ -102,7 +172,9 @@ const SkillsSection = () => {
                         `}
                         title={skill.name}
                       >
-                        <div className="text-2xl md:text-3xl mb-1">{skill.icon}</div>
+                        <div className="text-2xl md:text-3xl mb-1">
+                          {skill.icon}
+                        </div>
                         <p className="text-[10px] md:text-xs text-center mt-0">
                           {skill.name}
                         </p>

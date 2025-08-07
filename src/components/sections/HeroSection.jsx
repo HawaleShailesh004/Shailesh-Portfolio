@@ -26,8 +26,8 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
         >
           Hi, I’m{" "}
-          <span className="text-indigo-600 dark:text-indigo-400">
-            Shailesh Hawale
+          <span className="bg-gradient-to-r from-indigo-600 to-[#a989e9] text-transparent bg-clip-text font-bold">
+            Shailesh
           </span>
         </motion.h1>
 
@@ -59,9 +59,9 @@ const HeroSection = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          I’m a passionate full-stack developer who loves building impactful
-          products with clean, maintainable code. Currently focused on creating
-          scalable web solutions and honing professional coding practices.
+          I’m a full-stack developer who loves building impactful products with
+          clean code. Proficient in MERN Stack & loves to Solve Real World
+          Problems.
         </motion.p>
 
         <motion.div
