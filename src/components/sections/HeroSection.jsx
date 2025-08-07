@@ -26,7 +26,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
         >
           Hi, I’m{" "}
-          <span className="bg-gradient-to-r from-indigo-600 to-[#a989e9] text-transparent bg-clip-text font-bold">
+          <span className="bg-gradient-to-r from-indigo-600 dark:from-indigo-400 to-[#a989e9] text-transparent bg-clip-text font-bold">
             Shailesh
           </span>
         </motion.h1>
