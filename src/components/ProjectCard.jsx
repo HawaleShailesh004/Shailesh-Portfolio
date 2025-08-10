@@ -14,7 +14,8 @@ const ProjectCard = ({ project, index = 0 }) => {
       </div>
 
       {/* Image Section */}
-      <div className="w-[100%] sm:w-1/2 w-full overflow-hidden rounded-xl shadow-md flex items-center h-full relative">
+      <div className="w-full sm:w-1/2 overflow-hidden rounded-xl shadow-md flex items-center h-full relative">
+
         {/* Background image */}
         <img
           src={project.image}

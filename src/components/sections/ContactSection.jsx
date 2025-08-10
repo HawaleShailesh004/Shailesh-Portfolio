@@ -116,7 +116,8 @@ const ContactSection = () => {
         <button
           type="submit"
           disabled={sending}
-          className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 disabled:opacity-60 cursor-pointer"
+          className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-3 px-6 rounded-md transition duration-300 disabled:opacity-60 !cursor-pointer"
+
         >
           <FiSend className="text-lg" />
           {sending ? "Sending..." : "Send Message"}
