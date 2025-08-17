@@ -77,7 +77,7 @@ const HeroSection = () => {
                 ?.scrollIntoView({ behavior: "smooth" })
             }
             className="flex items-center justify-center gap-2 px-5 py-3 bg-indigo-600 text-white rounded-md shadow
-                       hover:bg-indigo-700 transition duration-300 w-full sm:w-auto"
+                       hover:bg-indigo-700 transition duration-300 w-full sm:w-auto cursor-pointer"
           >
             <FiPhone />
             Contact
